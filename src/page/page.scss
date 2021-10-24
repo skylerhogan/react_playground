@@ -1,8 +1,8 @@
 .box {
-  width: 300px;
+  width: 80vw;
   height: 300px;
   margin: 300px auto;
-  background-color: skyblue;
+  background-color: #61dafb;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -10,10 +10,12 @@
   color: white;
   font-weight: 900;
   font-size: x-large;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.row {
-  display: flex;
+.grid {
+  display: grid;
   justify-content: center;
   align-items: center;
+  margin: 200px auto;
 }
