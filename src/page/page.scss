@@ -1,0 +1,19 @@
+.box {
+  width: 300px;
+  height: 300px;
+  margin: 300px auto;
+  background-color: skyblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
